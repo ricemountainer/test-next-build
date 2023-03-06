@@ -1,0 +1,10 @@
+2023-03-06T08:31:14.898168+00:00 app[api]: Deploy f0f7d32c by user xxx@xxx.com
+2023-03-06T08:31:14.915246+00:00 app[api]: Scaled to web@1:Eco by user xxx@xxx.com
+2023-03-06T08:31:19.000000+00:00 app[api]: Build succeeded
+2023-03-06T08:31:22.177141+00:00 heroku[web.1]: Starting process with command `npm start`
+2023-03-06T08:31:24.464402+00:00 app[web.1]: 
+2023-03-06T08:31:24.464436+00:00 app[web.1]: > next-build-test@0.1.0 start
+2023-03-06T08:31:24.464436+00:00 app[web.1]: > next start
+2023-03-06T08:31:24.464437+00:00 app[web.1]: 
+2023-03-06T08:31:24.607074+00:00 app[web.1]: ready - started server on 0.0.0.0:33210, url: http://localhost:33210
+2023-03-06T08:31:25.062012+00:00 heroku[web.1]: State changed from starting to up
