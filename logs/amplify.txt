@@ -1,0 +1,81 @@
+2023-03-06T15:32:22.938Z [INFO]: # Cloning repository: git@github.com:ricemountainer/test-next-build.git
+2023-03-06T15:32:24.378Z [INFO]: 
+2023-03-06T15:32:24.380Z [INFO]: Cloning into 'test-next-build'...
+2023-03-06T15:32:24.381Z [INFO]: # Checking for Git submodules at: /codebuild/output/src625265560/src/test-next-build/.gitmodules
+2023-03-06T15:32:24.390Z [INFO]: # Retrieving environment cache...
+2023-03-06T15:32:24.458Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2023-03-06T15:32:24.458Z [INFO]: ---- Setting Up SSM Secrets ----
+2023-03-06T15:32:24.458Z [INFO]: SSM params {"Path":"/amplify/dqd3utmal6taa/main/","WithDecryption":true}
+2023-03-06T15:32:24.498Z [WARNING]: !Failed to set up process.env.secrets
+2023-03-06T15:32:24.499Z [INFO]: # Defaulting to Node version 16
+2023-03-06T15:32:37.969Z [INFO]: # Node version 16 is available for installation
+2023-03-06T15:32:38.117Z [INFO]: # Installing Node version 16
+2023-03-06T15:32:46.516Z [INFO]: # Now using Node version 16
+2023-03-06T15:32:46.612Z [INFO]: No live updates for this build run
+2023-03-06T15:32:46.616Z [INFO]: Setting NEXT_PRIVATE_STANDALONE=true to produce .next/standalone directory
+2023-03-06T15:32:46.617Z [INFO]: # Retrieving cache...
+2023-03-06T15:32:46.679Z [INFO]: # Retrieved cache
+2023-03-06T15:33:37.484Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+2023-03-06T15:33:37.486Z [INFO]: ## No backend environment association found, continuing...
+                                 ## Completed Backend Build
+                                 {"backendDuration": 0}
+2023-03-06T15:33:37.486Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: npm ci
+2023-03-06T15:33:51.260Z [INFO]: added 271 packages, and audited 272 packages in 14s
+2023-03-06T15:33:51.262Z [INFO]: 102 packages are looking for funding
+                                 run `npm fund` for details
+                                 found 0 vulnerabilities
+2023-03-06T15:33:51.273Z [INFO]: # Completed phase: preBuild
+                                 # Starting phase: build
+2023-03-06T15:33:51.273Z [INFO]: # Executing command: npm run build
+2023-03-06T15:33:51.528Z [INFO]: > next-build-test@0.1.0 build
+                                 > next build
+2023-03-06T15:33:51.955Z [INFO]: warn  - No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2023-03-06T15:33:51.970Z [INFO]: Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2023-03-06T15:33:51.970Z [INFO]: This information is used to shape Next.js' roadmap and prioritize features.
+                                 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+                                 https://nextjs.org/telemetry
+2023-03-06T15:33:52.065Z [INFO]: info  - Linting and checking validity of types...
+2023-03-06T15:33:54.024Z [INFO]: info  - Creating an optimized production build...
+2023-03-06T15:33:57.148Z [INFO]: info  - Compiled successfully
+2023-03-06T15:33:57.151Z [INFO]: info  - Collecting page data...
+2023-03-06T15:34:02.615Z [INFO]: info  - Generating static pages (0/4)
+2023-03-06T15:34:02.718Z [INFO]: info  - Generating static pages (1/4)
+2023-03-06T15:34:02.721Z [INFO]: info  - Generating static pages (2/4)
+2023-03-06T15:34:02.733Z [INFO]: info  - Generating static pages (3/4)
+2023-03-06T15:34:02.735Z [INFO]: info  - Generating static pages (4/4)
+2023-03-06T15:34:02.744Z [INFO]: info  - Finalizing page optimization...
+2023-03-06T15:34:02.748Z [INFO]: 
+2023-03-06T15:34:02.768Z [INFO]: Route (pages)                              Size     First Load JS
+                                 ┌ ○ /                                      4.6 kB         77.8 kB
+                                 ├   └ css/50901216b76e581e.css             1.87 kB
+                                 ├   /_app                                  0 B            73.2 kB
+                                 ├ ○ /404                                   182 B          73.4 kB
+                                 ├ λ /api/hello                             0 B            73.2 kB
+                                 ├ ● /ssg                                   326 B          73.6 kB
+                                 └ λ /ssr                                   325 B          73.6 kB
+                                 + First Load JS shared by all              73.9 kB
+                                 ├ chunks/framework-2c79e2a64abdb08b.js   45.2 kB
+                                 ├ chunks/main-0c597b21730512df.js        27 kB
+                                 ├ chunks/pages/_app-799179ebe672fcb1.js  297 B
+                                 ├ chunks/webpack-8fa1640cc84ba8fe.js     750 B
+                                 └ css/876d048b5dab7c28.css               706 B
+2023-03-06T15:34:02.769Z [INFO]: λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+                                 ○  (Static)  automatically rendered as static HTML (uses no initial props)
+                                 ●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+2023-03-06T15:34:03.572Z [INFO]: # Completed phase: build
+                                 ## Completed Frontend Build
+2023-03-06T15:34:03.574Z [INFO]: ## Build completed successfully
+2023-03-06T15:34:03.574Z [INFO]: # Starting caching...
+2023-03-06T15:34:03.578Z [INFO]: # Creating cache artifact...
+2023-03-06T15:34:07.595Z [INFO]: # Created cache artifact
+2023-03-06T15:34:07.706Z [INFO]: # Uploading cache artifact...
+2023-03-06T15:34:10.975Z [INFO]: # Uploaded cache artifact
+2023-03-06T15:34:11.083Z [INFO]: # Caching completed
+2023-03-06T15:34:11.087Z [INFO]: Setting NEXT_PRIVATE_STANDALONE=true to produce .next/standalone directory
+2023-03-06T15:34:11.090Z [INFO]: # No custom headers found.
+2023-03-06T15:34:11.890Z [INFO]: # Starting environment caching...
+2023-03-06T15:34:11.890Z [INFO]: # Environment caching completed
+Terminating logging...

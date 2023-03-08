@@ -1,0 +1,242 @@
+2023-03-07T01:52:35.039345Z	Cloning repository...
+2023-03-07T01:52:35.91967Z	From https://github.com/ricemountainer/test-next-build
+2023-03-07T01:52:35.9203Z	 * branch            5e091a1475f12cbbb5268cd71d014cebff085c52 -> FETCH_HEAD
+2023-03-07T01:52:35.920483Z	
+2023-03-07T01:52:35.966191Z	HEAD is now at 5e091a1 Added engine field
+2023-03-07T01:52:35.966796Z	
+2023-03-07T01:52:36.119406Z	
+2023-03-07T01:52:36.147801Z	Success: Finished cloning repository files
+2023-03-07T01:52:36.87536Z	Installing dependencies
+2023-03-07T01:52:36.887077Z	Python version set to 2.7
+2023-03-07T01:52:40.104546Z	Downloading and installing node v16.19.1...
+2023-03-07T01:52:40.533711Z	Downloading https://nodejs.org/dist/v16.19.1/node-v16.19.1-linux-x64.tar.xz...
+2023-03-07T01:52:40.98404Z	Computing checksum with sha256sum
+2023-03-07T01:52:41.115505Z	Checksums matched!
+2023-03-07T01:52:45.53603Z	Now using node v16.19.1 (npm v8.19.3)
+2023-03-07T01:52:45.928695Z	Started restoring cached build plugins
+2023-03-07T01:52:45.942476Z	Finished restoring cached build plugins
+2023-03-07T01:52:46.458593Z	Attempting ruby version 2.7.1, read from environment
+2023-03-07T01:52:49.909946Z	Using ruby version 2.7.1
+2023-03-07T01:52:50.266406Z	Using PHP version 5.6
+2023-03-07T01:52:50.423445Z	5.2 is already installed.
+2023-03-07T01:52:50.449677Z	Using Swift version 5.2
+2023-03-07T01:52:50.450329Z	Started restoring cached node modules
+2023-03-07T01:52:50.46623Z	Finished restoring cached node modules
+2023-03-07T01:52:50.987004Z	Installing NPM modules using NPM version 8.19.3
+2023-03-07T01:52:51.410608Z	npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:52:51.411023Z	npm WARN config location in the cache, and they are managed by
+2023-03-07T01:52:51.411597Z	npm WARN config     [`cacache`](http://npm.im/cacache).
+2023-03-07T01:52:51.819448Z	npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:52:51.819877Z	npm WARN config location in the cache, and they are managed by
+2023-03-07T01:52:51.820101Z	npm WARN config     [`cacache`](http://npm.im/cacache).
+2023-03-07T01:53:00.425755Z	
+2023-03-07T01:53:00.426185Z	added 271 packages, and audited 272 packages in 9s
+2023-03-07T01:53:00.426395Z	
+2023-03-07T01:53:00.426807Z	102 packages are looking for funding
+2023-03-07T01:53:00.427213Z	  run `npm fund` for details
+2023-03-07T01:53:00.427628Z	
+2023-03-07T01:53:00.427831Z	found 0 vulnerabilities
+2023-03-07T01:53:00.445933Z	NPM modules installed
+2023-03-07T01:53:01.041654Z	npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:53:01.042016Z	npm WARN config location in the cache, and they are managed by
+2023-03-07T01:53:01.042197Z	npm WARN config     [`cacache`](http://npm.im/cacache).
+2023-03-07T01:53:01.061477Z	Installing Hugo 0.54.0
+2023-03-07T01:53:01.782678Z	Hugo Static Site Generator v0.54.0-B1A82C61A/extended linux/amd64 BuildDate: 2019-02-01T10:04:38Z
+2023-03-07T01:53:01.786998Z	Started restoring cached go cache
+2023-03-07T01:53:01.805535Z	Finished restoring cached go cache
+2023-03-07T01:53:01.947988Z	go version go1.14.4 linux/amd64
+2023-03-07T01:53:01.963558Z	go version go1.14.4 linux/amd64
+2023-03-07T01:53:01.966797Z	Installing missing commands
+2023-03-07T01:53:01.967062Z	Verify run directory
+2023-03-07T01:53:01.967231Z	Executing user command: npx @cloudflare/next-on-pages --experimental-minify
+2023-03-07T01:53:02.457198Z	npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:53:02.457528Z	npm WARN config location in the cache, and they are managed by
+2023-03-07T01:53:02.457694Z	npm WARN config     [`cacache`](http://npm.im/cacache).
+2023-03-07T01:53:03.106511Z	npm WARN exec The following package was not found and will be installed: @cloudflare/next-on-pages@0.3.0
+2023-03-07T01:53:15.972753Z	npm WARN deprecated rollup-plugin-inject@3.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-inject.
+2023-03-07T01:53:16.102741Z	npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+2023-03-07T01:53:17.034121Z	npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+2023-03-07T01:53:22.635718Z	⚡️ @cloudflare/next-on-pages CLI
+2023-03-07T01:53:22.640304Z	⚡️
+2023-03-07T01:53:22.640572Z	⚡️ Installing 'vercel' CLI...
+2023-03-07T01:53:22.640718Z	⚡️
+2023-03-07T01:53:23.152601Z	▲ npm
+2023-03-07T01:53:23.153411Z	▲  WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:53:23.153647Z	▲ npm WARN config location in the cache, and they are managed by
+2023-03-07T01:53:23.153917Z	▲ npm WARN config     [`cacache`](http://npm.im/cacache).
+2023-03-07T01:53:23.15422Z	▲ 
+2023-03-07T01:53:31.193875Z	▲ npm
+2023-03-07T01:53:31.194656Z	▲  WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+2023-03-07T01:53:31.194848Z	▲ 
+2023-03-07T01:53:31.463415Z	▲ npm WARN deprecated rollup-plugin-inject@3.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-inject.
+2023-03-07T01:53:31.463713Z	▲ 
+2023-03-07T01:53:31.590075Z	▲ npm 
+2023-03-07T01:53:31.590605Z	▲ WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+2023-03-07T01:53:31.591007Z	▲ 
+2023-03-07T01:53:35.073829Z	▲ 
+2023-03-07T01:53:35.07426Z	▲ added 685 packages, and audited 957 packages in 12s
+2023-03-07T01:53:35.074429Z	▲ 
+2023-03-07T01:53:35.074757Z	▲ 
+2023-03-07T01:53:35.075021Z	▲ 234 packages are looking for funding
+2023-03-07T01:53:35.075256Z	▲   run `npm fund` for details
+2023-03-07T01:53:35.07546Z	▲ 
+2023-03-07T01:53:35.075849Z	▲ 
+2023-03-07T01:53:35.07665Z	▲ found 0 vulnerabilities
+2023-03-07T01:53:35.077292Z	▲ 
+2023-03-07T01:53:35.097181Z	⚡️
+2023-03-07T01:53:35.097493Z	⚡️
+2023-03-07T01:53:35.097652Z	⚡️ Completed 'npx vercel build'.
+2023-03-07T01:53:35.097779Z	⚡️
+2023-03-07T01:53:35.097915Z	⚡️
+2023-03-07T01:53:35.09803Z	⚡️ Building project with 'npx vercel build'...
+2023-03-07T01:53:35.098161Z	⚡️
+2023-03-07T01:53:35.633834Z	▲ npm
+2023-03-07T01:53:35.634265Z	▲  WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:53:35.634532Z	▲ npm WARN
+2023-03-07T01:53:35.634667Z	▲  config
+2023-03-07T01:53:35.634885Z	▲  location in the cache, and they are managed by
+2023-03-07T01:53:35.635105Z	▲ npm 
+2023-03-07T01:53:35.635303Z	▲ WARN config
+2023-03-07T01:53:35.635536Z	▲      [`cacache`](http://npm.im/cacache).
+2023-03-07T01:53:35.635725Z	▲ 
+2023-03-07T01:53:36.330912Z	▲ Vercel CLI 28.16.13
+2023-03-07T01:53:36.331251Z	▲ 
+2023-03-07T01:53:36.613567Z	▲ Warning: Detected "engines": { "node": ">=16.0.0" } in your `package.json` that will automatically upgrade when a new major Node.js Version is released. Learn More: http://vercel.link/node-version
+2023-03-07T01:53:36.61403Z	▲ 
+2023-03-07T01:53:36.634678Z	▲ Installing dependencies...
+2023-03-07T01:53:36.634968Z	▲ 
+2023-03-07T01:53:37.052029Z	▲ npm
+2023-03-07T01:53:37.052471Z	▲  
+2023-03-07T01:53:37.052671Z	▲ WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:53:37.052833Z	▲ npm 
+2023-03-07T01:53:37.053017Z	▲ WARN
+2023-03-07T01:53:37.05318Z	▲  config location in the cache, and they are managed by
+2023-03-07T01:53:37.053601Z	▲ npm WARN
+2023-03-07T01:53:37.053985Z	▲  config     [`cacache`](http://npm.im/cacache).
+2023-03-07T01:53:37.054241Z	▲ 
+2023-03-07T01:53:38.67603Z	▲ 
+2023-03-07T01:53:38.676693Z	▲ up to date in 2s
+2023-03-07T01:53:38.67694Z	▲ 
+2023-03-07T01:53:38.677078Z	▲ 
+2023-03-07T01:53:38.677247Z	▲ 234 packages are looking for funding
+2023-03-07T01:53:38.677411Z	▲   run `npm fund` for details
+2023-03-07T01:53:38.677545Z	▲ 
+2023-03-07T01:53:38.690321Z	▲ Detected Next.js version: 13.2.3
+2023-03-07T01:53:38.690571Z	▲ 
+2023-03-07T01:53:38.700541Z	▲ Detected `package-lock.json` generated by npm 7+...
+2023-03-07T01:53:38.700779Z	▲ 
+2023-03-07T01:53:38.701229Z	▲ Running "npm run build"
+2023-03-07T01:53:38.701541Z	▲ 
+2023-03-07T01:53:39.204761Z	▲ npm
+2023-03-07T01:53:39.205442Z	▲  WARN
+2023-03-07T01:53:39.205831Z	▲  config tmp This setting is no longer used.  npm stores temporary files in a special
+2023-03-07T01:53:39.206207Z	▲ npm WARN
+2023-03-07T01:53:39.206454Z	▲  config location in the cache, and they are managed by
+2023-03-07T01:53:39.206584Z	▲ 
+2023-03-07T01:53:39.206824Z	▲ npm WARN config
+2023-03-07T01:53:39.207214Z	▲      [`cacache`](http://npm.im/cacache).
+2023-03-07T01:53:39.20754Z	▲ 
+2023-03-07T01:53:39.222017Z	▲ 
+2023-03-07T01:53:39.22268Z	▲ > next-build-test@0.1.0 build
+2023-03-07T01:53:39.222884Z	▲ > next build
+2023-03-07T01:53:39.223041Z	▲ 
+2023-03-07T01:53:39.223254Z	▲ 
+2023-03-07T01:53:39.956055Z	▲ Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2023-03-07T01:53:39.958907Z	▲ 
+2023-03-07T01:53:39.959415Z	▲ This information is used to shape Next.js' roadmap and prioritize features.
+2023-03-07T01:53:39.959578Z	▲ 
+2023-03-07T01:53:39.9597Z	▲ You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2023-03-07T01:53:39.959818Z	▲ https://nextjs.org/telemetry
+2023-03-07T01:53:39.959959Z	▲ 
+2023-03-07T01:53:39.960077Z	▲ 
+2023-03-07T01:53:40.095284Z	▲ info  - Linting and checking validity of types...
+2023-03-07T01:53:40.095914Z	▲ 
+2023-03-07T01:53:42.373643Z	▲ info  - Creating an optimized production build...
+2023-03-07T01:53:42.373942Z	▲ 
+2023-03-07T01:53:46.270618Z	▲ info  - Compiled successfully
+2023-03-07T01:53:46.270944Z	▲ 
+2023-03-07T01:53:46.275897Z	▲ info  - Collecting page data...
+2023-03-07T01:53:46.27614Z	▲ 
+2023-03-07T01:53:52.068253Z	▲ info  - Generating static pages (0/4)
+2023-03-07T01:53:52.06866Z	▲ 
+2023-03-07T01:53:52.168333Z	▲ info  - Generating static pages (1/4)
+2023-03-07T01:53:52.1689Z	▲ 
+2023-03-07T01:53:52.17338Z	▲ info  - Generating static pages (2/4)
+2023-03-07T01:53:52.173588Z	▲ 
+2023-03-07T01:53:52.183155Z	▲ info  - Generating static pages (3/4)
+2023-03-07T01:53:52.1834Z	▲ 
+2023-03-07T01:53:52.184256Z	▲ info  - Generating static pages (4/4)
+2023-03-07T01:53:52.184466Z	▲ 
+2023-03-07T01:53:52.194466Z	▲ info  - Finalizing page optimization...
+2023-03-07T01:53:52.194777Z	▲ 
+2023-03-07T01:53:52.201222Z	▲ 
+2023-03-07T01:53:52.201454Z	▲ 
+2023-03-07T01:53:52.2224Z	▲ Route (pages)                              Size     First Load JS
+2023-03-07T01:53:52.222684Z	▲ ┌ ○ /                                      4.6 kB         77.8 kB
+2023-03-07T01:53:52.222833Z	▲ ├   └ css/50901216b76e581e.css             1.87 kB
+2023-03-07T01:53:52.222983Z	▲ ├   /_app                                  0 B            73.2 kB
+2023-03-07T01:53:52.22311Z	▲ ├ ○ /404                                   182 B          73.4 kB
+2023-03-07T01:53:52.223246Z	▲ ├ λ /api/hello                             0 B            73.2 kB
+2023-03-07T01:53:52.223378Z	▲ ├ ● /ssg                                   326 B          73.6 kB
+2023-03-07T01:53:52.223504Z	▲ └ λ /ssr                                   325 B          73.6 kB
+2023-03-07T01:53:52.223627Z	▲ + First Load JS shared by all              73.9 kB
+2023-03-07T01:53:52.223757Z	▲   ├ chunks/framework-2c79e2a64abdb08b.js   45.2 kB
+2023-03-07T01:53:52.224244Z	▲   ├ chunks/main-0c597b21730512df.js        27 kB
+2023-03-07T01:53:52.224412Z	▲   ├ chunks/pages/_app-799179ebe672fcb1.js  297 B
+2023-03-07T01:53:52.22454Z	▲   ├ chunks/webpack-8fa1640cc84ba8fe.js     750 B
+2023-03-07T01:53:52.224664Z	▲   └ css/876d048b5dab7c28.css               706 B
+2023-03-07T01:53:52.224804Z	▲ 
+2023-03-07T01:53:52.22494Z	▲ 
+2023-03-07T01:53:52.225062Z	▲ λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+2023-03-07T01:53:52.225191Z	▲ ○  (Static)  automatically rendered as static HTML (uses no initial props)
+2023-03-07T01:53:52.225334Z	▲ ●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+2023-03-07T01:53:52.225478Z	▲ 
+2023-03-07T01:53:52.225611Z	▲ 
+2023-03-07T01:53:54.305638Z	▲ Traced Next.js server files in: 1.398s
+2023-03-07T01:53:54.306079Z	▲ 
+2023-03-07T01:53:54.40133Z	▲ Created all serverless functions in: 95.191ms
+2023-03-07T01:53:54.401647Z	▲ 
+2023-03-07T01:53:54.411877Z	▲ Collected static files (public/, static/, .next/static): 7.671ms
+2023-03-07T01:53:54.412142Z	▲ 
+2023-03-07T01:53:55.24203Z	▲ Build Completed in .vercel/output [19s]
+2023-03-07T01:53:55.242488Z	▲ 
+2023-03-07T01:53:55.309725Z	⚡️
+2023-03-07T01:53:55.310106Z	⚡️
+2023-03-07T01:53:55.310288Z	⚡️ Completed 'npx vercel build'.
+2023-03-07T01:53:55.310461Z	⚡️
+2023-03-07T01:53:55.317423Z	⚡️ No functions detected.
+2023-03-07T01:53:55.351935Z	Finished
+2023-03-07T01:53:55.352671Z	Note: No functions dir at /functions found. Skipping.
+2023-03-07T01:53:55.352891Z	Validating asset output directory
+2023-03-07T01:53:56.091631Z	Deploying your site to Cloudflare's global network...
+2023-03-07T01:53:58.014074Z	 Uploading... (0/28)
+2023-03-07T01:53:58.014873Z	
+2023-03-07T01:53:58.022033Z	[2K[1A[2K[1A[2K[GPOST /pages/assets/upload
+2023-03-07T01:53:58.022326Z	 Uploading... (0/28)
+2023-03-07T01:53:58.022542Z	
+2023-03-07T01:53:58.028981Z	[2K[1A[2K[1A[2K[GPOST /pages/assets/upload
+2023-03-07T01:53:58.029306Z	 Uploading... (0/28)
+2023-03-07T01:53:58.029521Z	
+2023-03-07T01:53:58.03597Z	[2K[1A[2K[1A[2K[GPOST /pages/assets/upload
+2023-03-07T01:53:58.036351Z	 Uploading... (0/28)
+2023-03-07T01:53:58.036676Z	
+2023-03-07T01:53:58.965372Z	[2K[1A[2K[1A[2K[Gresult: null
+2023-03-07T01:53:58.965753Z	 Uploading... (0/28)
+2023-03-07T01:53:58.965968Z	
+2023-03-07T01:53:58.968466Z	[2K[1A[2K[1A[2K[G Uploading... (9/28)
+2023-03-07T01:53:58.968701Z	
+2023-03-07T01:53:59.066175Z	[2K[1A[2K[1A[2K[Gresult: null
+2023-03-07T01:53:59.066545Z	 Uploading... (9/28)
+2023-03-07T01:53:59.06673Z	
+2023-03-07T01:53:59.067433Z	[2K[1A[2K[1A[2K[G Uploading... (18/28)
+2023-03-07T01:53:59.067709Z	
+2023-03-07T01:53:59.603476Z	[2K[1A[2K[1A[2K[Gresult: null
+2023-03-07T01:53:59.603821Z	 Uploading... (18/28)
+2023-03-07T01:53:59.60401Z	
+2023-03-07T01:53:59.604498Z	[2K[1A[2K[1A[2K[G Uploading... (28/28)
+2023-03-07T01:53:59.604991Z	
+2023-03-07T01:53:59.60688Z	✨ Success! Uploaded 28 files (2.04 sec)
+2023-03-07T01:53:59.60711Z	
+2023-03-07T01:54:00.167264Z	✨ Upload complete!
+2023-03-07T01:54:01.98515Z	Success: Assets published!
+2023-03-07T01:54:02.613944Z	Success: Your site was deployed!
